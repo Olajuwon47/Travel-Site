@@ -14,16 +14,6 @@ const menuItems = [
     description: 'Go to homepage',
   },
   {
-    title: 'Products',
-    href: '#products',
-    description: 'Browse our products',
-    subItems: [
-      { title: 'Electronics', href: '#electronics' },
-      { title: 'Clothing', href: '#clothing' },
-      { title: 'Books', href: '#books' },
-    ]
-  },
-  {
     title: 'Destinations',
     href: '#categories',
     description: 'Product categories',
@@ -34,9 +24,19 @@ const menuItems = [
     ]
   },
   {
-    title: 'Sellers',
-    href: '#sellers',
-    description: 'Our trusted sellers'
+    title: 'Services',
+    href: '#services',
+    description: 'Explore our services',
+    subItems: [
+      { title: 'Consulting', href: '#consulting' },
+      { title: 'Support', href: '#support' },
+      { title: 'Custom Solutions', href: '#custom-solutions' },
+    ]
+  },
+  {
+    title: 'Contact Us',
+    href: '/contact',
+    description: 'Get in touch with us'
   },
   {
     title: 'Blogs',
@@ -48,16 +48,17 @@ const menuItems = [
     href: '/About Us',
     description: 'Learn more about us'
   },
-  {
-    title: 'Contact Us',
-    href: '#contact-us',
-    description: 'Get in touch'
+
+    {
+    title: 'FAQ',
+    href: '/Faq',
+    description: 'Our trusted sellers'
   }
 ]
 
 export function Navbar() {
   return (
-    <header className="fixed top-0 left-0 z-50 w-full bg-gradient-to-r from-lime-400 to-lime-800 shadow-md">
+    <header className="fixed top-0 left-0 z-100 w-full bg-gradient-to-r from-lime-400 to-lime-800 shadow-md">
       <div className="container mx-auto px-4">
         <NavigationMenu className="mx-auto">
           <NavigationMenuList className="flex flex-row space-x-1">
