@@ -1,7 +1,9 @@
 import {  } from 'react';
+import Team from '../Pages/Team.tsx';
 
 export default function About() {
   return (
+    <>
     <section className="bg-white text-gray-800 px-10 py-16 max-md:px-6 max-sm:px-4">
       {/* Hero Section */}
       <div className="text-center mb-16">
@@ -90,5 +92,7 @@ export default function About() {
         </a>
       </div>
     </section>
+     <Team/>
+  </>
   );
 }

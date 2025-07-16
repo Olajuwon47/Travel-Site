@@ -1,19 +1,18 @@
-import {  } from 'react'
-//import reactLogo from './assets/react.svg'
-import Navbar from './Component/Navbar.tsx'
-import Footer from './Component/Footer.tsx'
-//import './App.css'
+import { Outlet } from 'react-router-dom';
+import Navbar from './Features/Navbar.tsx';
+import Footer from './Features/Footer.tsx';
+//import './App.css';
 
 function App() {
- 
-
   return (
     <>
-    <Navbar/>
-    <Footer/>
-     
+      <Navbar />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
