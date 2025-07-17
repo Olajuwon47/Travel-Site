@@ -7,7 +7,7 @@ import Home from './Pages/Home.tsx';
 import AboutUs from './Pages/About Us.tsx';
 import Contact from './Pages/contact.tsx';
 import Faq from './Pages/Faq.tsx';
-//import Destination from './Pages/Destination/Destination.tsx';
+import Destination from './Pages/Destination/Destination.tsx';
 
 const router = createBrowserRouter([
   {
@@ -30,10 +30,10 @@ const router = createBrowserRouter([
         element: <Faq />,
       },
 
-      {/*
+      {
         path: '/Destinations',
         element: <Destination />,
-      */},
+      },
     ],
   },
 ]);

@@ -15,13 +15,13 @@ const menuItems = [
   },
   {
     title: 'Destinations',
-    href: '#categories',
-    description: 'Product categories',
-    subItems: [
+    href: '/Destinations',
+    description: 'Destination Details',
+   /* subItems: [
       { title: 'New Arrivals', href: '#new-arrivals' },
       { title: 'Best Sellers', href: '#best-sellers' },
       { title: 'Sale Items', href: '#sale' },
-    ]
+    ]*/
   },
   {
     title: 'Services',
