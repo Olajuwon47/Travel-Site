@@ -1,14 +1,13 @@
-import { StrictMode, lazy, Suspense } from 'react';
+import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import App from './App.tsx';
-
-const Home = lazy(() => import('./Pages/Home.tsx'));
-const AboutUs = lazy(() => import('./Pages/About Us.tsx'));
-const Contact = lazy(() => import('./Pages/contact.tsx'));
-const Faq = lazy(() => import('./Pages/Faq.tsx'));
-const Destination = lazy(() => import('./Pages/Destination.tsx'));
+import Home from './Pages/Home.tsx';
+import AboutUs from './Pages/About Us.tsx';
+import Contact from './Pages/contact.tsx';
+import Faq from './Pages/Faq.tsx';
+import Destination from './Pages/Destination.tsx';
 
 const router = createBrowserRouter([
   {
@@ -17,43 +16,23 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <Home />
-          </Suspense>
-        ),
+        element: <Home />,
       },
       {
         path: '/About Us',
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <AboutUs />
-          </Suspense>
-        ),
+        element: <AboutUs />,
       },
       {
         path: '/contact',
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <Contact />
-          </Suspense>
-        ),
-      },
-      {
+        element: <Contact />,
+      },{
         path: '/Faq',
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <Faq />
-          </Suspense>
-        ),
+        element: <Faq />,
       },
+
       {
         path: '/Destinations',
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <Destination />
-          </Suspense>
-        ),
+        element: <Destination />,
       },
     ],
   },
