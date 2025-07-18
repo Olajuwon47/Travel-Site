@@ -18,7 +18,7 @@ export default function About() {
         <img
           src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
           alt="Travel Adventure"
-          className="rounded-2xl shadow-lg w-full h-full object-cover max-sm:h-64 max-md:h-80"
+          className="rounded-2xl shadow-lg w-full h-50 object-cover max-sm:h-64 max-md:h-80"
         />
         <div>
           <h2 className="text-2xl font-semibold mb-4 max-sm:text-xl">Our Story</h2>
@@ -42,7 +42,7 @@ export default function About() {
         <img
           src="https://images.unsplash.com/photo-1511732351165-5e4b902af0c2?auto=format&fit=crop&w=800&q=80"
           alt="Mission Travel"
-          className="rounded-2xl shadow-lg w-full h-full object-cover max-sm:h-64 max-md:h-80"
+          className="rounded-2xl shadow-lg w-full h-50 object-cover max-sm:h-64 max-md:h-80"
         />
       </div>
 
@@ -51,7 +51,7 @@ export default function About() {
         <img
           src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80"
           alt="Vision"
-          className="rounded-2xl shadow-lg w-full h-full object-cover max-sm:h-64 max-md:h-80"
+          className="rounded-2xl shadow-lg w-full h-50 object-cover max-sm:h-64 max-md:h-80"
         />
         <div>
           <h2 className="text-2xl font-semibold mb-4 max-sm:text-xl">Our Vision</h2>
@@ -86,7 +86,7 @@ export default function About() {
         <h3 className="text-xl font-semibold mb-4 max-sm:text-lg">Ready to start your next journey?</h3>
         <a
           href="/destinations"
-          className="inline-block bg-sky-600 hover:bg-sky-500 text-white px-6 py-3 rounded-full font-medium transition max-sm:px-4 max-sm:py-2"
+          className="inline-block bg-lime-600 mt-10 hover:bg-lime-500 text-white px-6 py-3 rounded-full font-medium transition max-sm:px-4 max-sm:py-2"
         >
           Explore Destinations
         </a>
