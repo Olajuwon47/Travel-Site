@@ -78,7 +78,7 @@ export default function Example() {
           </div>
         </div>
       </div>
-
+{/* Testimonials Section */}
       <Testimonal />
     </>
   )
