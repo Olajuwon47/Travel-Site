@@ -97,7 +97,7 @@ export default function Destination() {
   return (
     <div className=" bg-gradient-to-r from-lime-50 to-lime-100 p-6 max-md:p-4 max-sm:p-3">
       {/* Header */}
-      <div className="mt-8 max-md:mb-6 max-sm:mb-4">
+      <div className="mt-12 max-md:mb-6 max-sm:mb-4">
         <h1 className="text-3xl font-bold text-gray-800 mb-2 max-md:text-2xl max-sm:text-xl max-sm:mb-1">
           Explore Destinations
         </h1>
