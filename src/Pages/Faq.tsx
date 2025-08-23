@@ -49,7 +49,7 @@ export default function Faq() {
 
   return (
     <section className="pt-20 px-4 max-sm:px-3 max-md:px-6 max-w-4xl mx-auto">
-      <h1 className="font-bold text-center text-2xl max-sm:text-lg mb-10">
+      <h1 className="font-bold text-center text-2xl max-sm:text-lg mb-8">
         Get Answers to Frequently Asked Questions
       </h1>
 
